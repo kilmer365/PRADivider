@@ -1,0 +1,47 @@
+[general]
+name=PRA Divider
+qgisMinimumVersion=3.0
+description=Plugin para divisão de polígonos em ciclos para Programa de Regularização Ambiental (PRA) - APP e Reserva Legal
+version=1.0.0
+author=Davi Kilmer
+email=davisampaiobatista@gmail.com
+
+about=Plugin profissional para automatizar a divisão de polígonos em ciclos conforme exigido pelo Programa de Regularização Ambiental (PRA). Divide automaticamente áreas de APP em 5 partes iguais e áreas de Reserva Legal em 10 partes iguais, utilizando algoritmo otimizado de divisão por faixas com busca binária.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+changelog=
+    1.0.0 - Versão inicial
+        * Divisão automática de APP (5 partes)
+        * Divisão automática de Reserva Legal (10 partes)
+        * Interface gráfica intuitiva
+        * Algoritmo otimizado com busca binária
+        * Atributos detalhados (área, percentual, tipo)
+
+# Tags are comma separated with spaces allowed
+tags=polygon,division,environmental,pra,regularization,app,reserva legal
+
+homepage=http://homepage
+category=Vector
+icon=icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=Vector
+
+# If the plugin can run on QGIS Server.
+server=False
