@@ -39,14 +39,11 @@ Plugin para QGIS que divide automaticamente polígonos em partes iguais para o *
 PRADivider/
 ├── __init__.py              # Ponto de entrada do plugin (classFactory)
 ├── pra_divider.py           # Classe principal do plugin (carregada pelo __init__.py)
-├── pra_plugin_main.py       # Versão alternativa/mais recente da classe principal
 ├── pra_divider_dialog.py    # Interface gráfica (QDialog)
 ├── processing_algorithm.py  # Algoritmo de divisão de polígonos
 ├── metadata.txt             # Metadados do plugin (QGIS)
 └── icon.png                 # Ícone do plugin
 ```
-
-> **Nota:** `__init__.py` importa a classe `PRADivider` de `pra_divider.py`. O arquivo `pra_plugin_main.py` contém uma versão mais completa da mesma classe (com validação de CRS UTM e barra de progresso), mas não está sendo referenciado pelo `__init__.py`. Vale revisar qual dos dois deve ser o carregado antes de publicar uma nova versão.
 
 ## Autor
 

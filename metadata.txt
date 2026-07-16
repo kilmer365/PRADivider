@@ -8,8 +8,8 @@ email=davisampaiobatista@gmail.com
 
 about=Plugin profissional para automatizar a divisão de polígonos em ciclos conforme exigido pelo Programa de Regularização Ambiental (PRA). Divide automaticamente áreas de APP em 5 partes iguais e áreas de Reserva Legal em 10 partes iguais, utilizando algoritmo otimizado de divisão por faixas com busca binária.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/kilmer365/PRADivider/issues
+repository=https://github.com/kilmer365/PRADivider
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ changelog=
 # Tags are comma separated with spaces allowed
 tags=polygon,division,environmental,pra,regularization,app,reserva legal
 
-homepage=http://homepage
+homepage=https://github.com/kilmer365/PRADivider#readme
 category=Vector
 icon=icon.png
 

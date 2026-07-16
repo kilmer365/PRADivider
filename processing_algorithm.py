@@ -264,7 +264,7 @@ class PRADividerAlgorithm:
             self.iface.mapCanvas().refresh()
             
             # Criar mensagem com estatísticas
-            message = self._create_result_message(parts, total_area, area_por_parte_ha, pct_por_parte)
+            message = self._create_result_message(parts, total_area, area_fixa, pct_fixo)
             
             return True, message
             
