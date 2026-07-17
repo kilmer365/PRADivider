@@ -203,13 +203,13 @@ class PRADivider:
         if crs.authid().startswith("EPSG:"):
             try:
                 epsg_code = int(crs.authid().split(":")[1])
-                # EPSG para UTM WGS84: 32601-32660 (Norte) e 32701-32760 (Sul)
-                # EPSG para UTM SIRGAS 2000: 31965-31985
-                if (32601 <= epsg_code <= 32660 or
-                    32701 <= epsg_code <= 32760 or
-                    31965 <= epsg_code <= 31985):
-                    return True
-            except:
-                pass
+            except (ValueError, IndexError):
+                return False
+            # EPSG para UTM WGS84: 32601-32660 (Norte) e 32701-32760 (Sul)
+            # EPSG para UTM SIRGAS 2000: 31965-31985
+            if (32601 <= epsg_code <= 32660 or
+                32701 <= epsg_code <= 32760 or
+                31965 <= epsg_code <= 31985):
+                return True
 
         return False
