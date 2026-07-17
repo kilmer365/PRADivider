@@ -4,13 +4,10 @@ echo ===== Adicionando alteracoes =====
 git add -A
 echo.
 echo ===== Commit =====
-git commit -m "Fix bug, consolidate main class, update metadata links, clean up helper scripts"
+git commit -m "Add English description to metadata.txt for QGIS repo requirements"
 echo.
 echo ===== Enviando para o GitHub =====
 git push
-echo.
-echo ===== Status final =====
-git status
 echo.
 echo ===== CONCLUIDO =====
 pause

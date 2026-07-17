@@ -1,12 +1,14 @@
 [general]
 name=PRA Divider
 qgisMinimumVersion=3.0
-description=Plugin para divisão de polígonos em ciclos para Programa de Regularização Ambiental (PRA) - APP e Reserva Legal
+description=Splits polygons into equal-area parts for Brazil's Environmental Regularization Program (PRA) - APP and Legal Reserve
 version=1.0.0
 author=Davi Kilmer
 email=davisampaiobatista@gmail.com
 
-about=Plugin profissional para automatizar a divisão de polígonos em ciclos conforme exigido pelo Programa de Regularização Ambiental (PRA). Divide automaticamente áreas de APP em 5 partes iguais e áreas de Reserva Legal em 10 partes iguais, utilizando algoritmo otimizado de divisão por faixas com busca binária.
+about=Automates the division of polygons into equal-area parts as required by Brazil's Programa de Regularização Ambiental (PRA). Automatically splits APP (Permanent Preservation Area) polygons into 5 equal parts and Reserva Legal (Legal Reserve) polygons into 10 equal parts, using an optimized strip-division algorithm with binary search. Requires layers in a projected UTM coordinate system.
+
+ Plugin profissional para automatizar a divisão de polígonos em ciclos conforme exigido pelo Programa de Regularização Ambiental (PRA). Divide automaticamente áreas de APP em 5 partes iguais e áreas de Reserva Legal em 10 partes iguais, utilizando algoritmo otimizado de divisão por faixas com busca binária.
 
 tracker=https://github.com/kilmer365/PRADivider/issues
 repository=https://github.com/kilmer365/PRADivider
