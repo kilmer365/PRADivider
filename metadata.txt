@@ -2,7 +2,7 @@
 name=PRA Divider
 qgisMinimumVersion=3.0
 description=Splits polygons into equal-area parts for Brazil's Environmental Regularization Program (PRA) - APP and Legal Reserve
-version=1.0.0
+version=1.0.1
 author=Davi Kilmer
 email=davisampaiobatista@gmail.com
 
@@ -17,6 +17,9 @@ repository=https://github.com/kilmer365/PRADivider
 # Recommended items:
 hasProcessingProvider=no
 changelog=
+    1.0.1 - Correção de segurança
+        * Removido tratamento de exceção genérico (except/pass) na validação de CRS UTM
+        * Descrição do plugin traduzida para inglês
     1.0.0 - Versão inicial
         * Divisão automática de APP (5 partes)
         * Divisão automática de Reserva Legal (10 partes)
