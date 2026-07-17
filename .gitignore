@@ -29,3 +29,6 @@ Thumbs.db
 
 # Compiled translations
 *.qm
+
+# Release packages
+*.zip
